@@ -1,0 +1,9 @@
+language: objective-c
+xcode_project: TreeSourceView.xcodeproj
+xcode_scheme: TreeSourceView
+xcode_sdk: iphonesimulator9.1
+osx_image: xcode7.1
+before_install: true
+install: true
+git:
+  submodules: false
